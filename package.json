@@ -1,0 +1,26 @@
+{
+  "name": "contraku-api",
+  "version": "1.0.0",
+  "description": "Contraku-api is the back end of the Employee management app \"Contraku\"",
+  "main": "lib/boot/app.js",
+  "scripts": {
+    "dev" : "nodemon lib/boot/app.js",
+    "test": "npm run test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Gershon-Kumar/contraku-api.git"
+  },
+  "author": "",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/Gershon-Kumar/contraku-api/issues"
+  },
+  "homepage": "https://github.com/Gershon-Kumar/contraku-api#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^6.0.5",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.12"
+  }
+}
