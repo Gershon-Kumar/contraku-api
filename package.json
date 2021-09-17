@@ -5,7 +5,8 @@
   "main": "lib/boot/app.js",
   "scripts": {
     "dev": "ENV=dev nodemon lib/boot/app.js",
-    "test": "ENV=test mocha  ./lib/test/app-test.js"
+    "test": "ENV=test mocha  ./lib/test/app-test.js",
+    "debug" : "DEBUG=express:* node lib/boot/app.js"
   },
   "repository": {
     "type": "git",
